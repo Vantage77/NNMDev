@@ -12,6 +12,7 @@ public class PlayerController : MonoBehaviour
     public bool grounded;
     public float yVelocity;
     public int jumpForce;
+    
 
     // Start is called before the first frame update
     void Start()
@@ -35,5 +36,10 @@ public class PlayerController : MonoBehaviour
         anim.SetFloat("yVelocity", rb.velocity.y);
         anim.SetBool("Grounded", grounded);
             
+    }
+
+    public void gameOver()
+    {
+        Destroy(gameObject);
     }
 }
