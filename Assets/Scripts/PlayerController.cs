@@ -12,7 +12,9 @@ public class PlayerController : MonoBehaviour
     public bool grounded;
     public float yVelocity;
     public int jumpForce;
+    public Transform effectPosition;
     public GameObject deathEffect;
+    public GameObject GameOver;
 
     // Start is called before the first frame update
     void Start()
@@ -40,7 +42,8 @@ public class PlayerController : MonoBehaviour
 
     public void gameOver()
     {
-        Instantiate(deathEffect, transform.position, Quaternion.identity);
+        Instantiate(deathEffect, effectPosition.position, Quaternion.identity);
+        GameOver.SetActive(true);
         Destroy(gameObject);
     }
 }
