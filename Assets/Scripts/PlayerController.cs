@@ -12,7 +12,7 @@ public class PlayerController : MonoBehaviour
     public bool grounded;
     public float yVelocity;
     public int jumpForce;
-    
+    public GameObject deathEffect;
 
     // Start is called before the first frame update
     void Start()
@@ -40,6 +40,7 @@ public class PlayerController : MonoBehaviour
 
     public void gameOver()
     {
+        Instantiate(deathEffect, transform.position, Quaternion.identity);
         Destroy(gameObject);
     }
 }
