@@ -1826,6 +1826,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 8
       objectReference: {fileID: 0}
+    - target: {fileID: 8263152425645250464, guid: 7d56fc7d8f7a68a45ba99180dd092134,
+        type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
     - target: {fileID: 8265618766697242842, guid: 7d56fc7d8f7a68a45ba99180dd092134,
         type: 3}
       propertyPath: m_SortingLayerID
@@ -2367,18 +2372,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 119129148, guid: d431c3c3f10bca348b236f8fa9605604, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0.29
-      objectReference: {fileID: 0}
-    - target: {fileID: 524972052, guid: d431c3c3f10bca348b236f8fa9605604, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -3.23
-      objectReference: {fileID: 0}
-    - target: {fileID: 705390957, guid: d431c3c3f10bca348b236f8fa9605604, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 2.8
-      objectReference: {fileID: 0}
     - target: {fileID: 1648723937096864824, guid: d431c3c3f10bca348b236f8fa9605604,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2454,12 +2447,6 @@ PrefabInstance:
       propertyPath: endPosition
       value: 
       objectReference: {fileID: 1437842692}
-    - target: {fileID: 1648723937096864826, guid: d431c3c3f10bca348b236f8fa9605604,
-        type: 3}
-      propertyPath: hazardPrefab
-      value: 
-      objectReference: {fileID: 457558188462136300, guid: 7dd1de830f4eb484494a5257d34812e7,
-        type: 3}
     - target: {fileID: 1648723937096864830, guid: d431c3c3f10bca348b236f8fa9605604,
         type: 3}
       propertyPath: m_Name

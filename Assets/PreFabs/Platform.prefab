@@ -54,7 +54,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 119129147}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.87, y: 1.27, z: 0}
+  m_LocalPosition: {x: 0.29, y: 1.27, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1648723937096864824}
@@ -84,7 +84,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 524972051}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -5.3, y: 1.27, z: 0}
+  m_LocalPosition: {x: -3.23, y: 1.27, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1648723937096864824}
@@ -114,7 +114,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 705390956}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.4, y: 1.27, z: 0}
+  m_LocalPosition: {x: 2.8, y: 1.27, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1648723937096864824}
@@ -288,5 +288,5 @@ MonoBehaviour:
   - {fileID: 524972052}
   coinPrefab: {fileID: 5788368165603341958, guid: cb4e6b70b9729c14c9825057299e8a1f,
     type: 3}
-  hazardPrefab: {fileID: 8141195038934206979, guid: d02a5368927668f4d9457e44053c9ea6,
+  hazardPrefab: {fileID: 457558188462136300, guid: 7dd1de830f4eb484494a5257d34812e7,
     type: 3}
