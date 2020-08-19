@@ -4,13 +4,13 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
-    public Animator anim;
-    public Rigidbody2D rb;
+    Animator anim;
+    Rigidbody2D rb;
     public Transform groundPoint;
     
     public LayerMask groundLayer;
-    public bool grounded;
-    public float yVelocity;
+    bool grounded;
+    float yVelocity;
     public int jumpForce;
     public Transform effectPosition;
     public GameObject deathEffect;
@@ -19,7 +19,8 @@ public class PlayerController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        anim = GetComponent<Animator>();
+        rb = GetComponent<Rigidbody2D>();
     }
 
     private void FixedUpdate()

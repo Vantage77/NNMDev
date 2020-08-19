@@ -7,11 +7,19 @@ using UnityEngine.UI;
 public class GameManager : MonoBehaviour
 {
     public static GameManager instance;
+    public Transform[] spawnPositions;
+    public Transform endPosition;
 
-    public int currentScore = 0;
+    [Tooltip("End pos of Background tiles")]
+    public Transform endPosBG;
+    int currentScore = 0;
+
+    public PlayerController player;
+
 
     public Text score;
 
+    [HideInInspector]
     public CameraController cam;
 
     // Start is called before the first frame update
