@@ -7,6 +7,7 @@ using UnityEngine.UI;
 public class GameManager : MonoBehaviour
 {
     public static GameManager instance;
+    [Header("Platform Variables")]
     public Transform[] spawnPositions;
     public Transform endPosition;
 
