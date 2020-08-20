@@ -13,6 +13,7 @@ public class GameManager : MonoBehaviour
 
     [Tooltip("End pos of Background tiles")]
     public Transform endPosBG;
+    public Transform endPosFire;
     int currentScore = 0;
 
     public PlayerController player;

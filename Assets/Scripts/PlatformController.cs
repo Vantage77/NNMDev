@@ -15,6 +15,7 @@ public class PlatformController : MonoBehaviour
 
     public GameObject coinPrefab;
     public GameObject hazardPrefab;
+    
 
     GameObject spawnedCoin;
     GameObject spawnedHazard;
